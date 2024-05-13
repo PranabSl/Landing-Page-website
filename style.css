@@ -1,0 +1,715 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background: url(istockphoto.jpg);
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    width:100%;
+    height: 75px;
+    background: transparent;
+   
+   
+   
+}
+.icon{
+    display: inline-flex;
+    height: 85px;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-around;
+    
+  
+   
+}
+.logo{
+    font-size: 35px;
+    margin-top:15px;
+  
+    
+
+}
+.icon h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(241, 244, 247);
+    font-weight: 900;
+  
+   
+}
+.menu{
+    padding-left: 5%;
+    display: inline-flex;
+    margin-top:30px;
+    width:400px;
+    height:27px;
+    margin-right: 18%;
+    
+}
+.menu a{
+    display: inline;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 17px;
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.menu a:hover{
+   
+    padding: 2px 4px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgb(206, 212, 217);
+}
+.search{
+    margin-top: 17px;
+    margin-right: 10%;
+    text-decoration: none;
+    color: rgb(252, 252, 254);
+   
+}
+.search .srch{
+    background: transparent;
+    border: 1px solid rgb(187, 201, 208);
+    padding : 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-top-right-radius: 13px;
+}
+.search .srch::placeholder{
+    color: rgb(238, 236, 236);
+}
+.btn{
+   display:inline-flex;
+   text-decoration: none;
+   background: skyblue;
+   border: 1px solid rgb(187, 201, 208) ;
+   font-size: 13px;
+   color:white;
+   padding-top:13px;
+   padding-bottom: 13px;
+   border-bottom-left-radius: 13px;
+   border-top-left-radius: 13px;
+   border-top-right-radius: 13px;
+
+
+}
+.btn:hover{
+    background: rgb(43, 156, 236);;
+    color: black;
+    transition: 0.4s;
+}
+.heading{
+    display: flex;
+    position: absolute;
+    margin-left:16%;
+    margin-top:3%;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(195, 229, 241);
+   
+}
+span{
+    color: rgb(5, 142, 241);
+}
+.content{
+   color: rgb(255, 255, 255);;
+    width:43%;
+    height: 25%;
+    margin-left: 16%;
+    margin-top: 15%;
+}
+.content p{
+    font-size: 20px;
+}
+.register{
+   display: flex;
+    width:20%;
+    height:24%;
+    margin-top: 15px;
+    
+    
+
+
+    
+}
+.register .btns{
+    color:  rgb(240, 244, 247);;
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    width: auto;
+    height:52px;
+    background: transparent;
+    padding-left: 4px;
+    padding-top: 8px;
+    border: 1px solid whitesmoke;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 13px;
+    background-color: rgb(101, 175, 205);
+   
+    
+}
+
+
+.register a{
+    text-decoration: none;
+    justify-content: center;
+    
+   
+}
+.register .btns:hover{
+    background: rgb(5, 142, 241);
+    color: black;
+    border:1px solid black;
+}
+
+/* register page */
+
+.register-page{
+    width: 100%;
+    height: 100%;
+    
+    background-color: lightblue;
+}
+.register-page .heading{
+    display: flex;
+    position: absolute;
+    margin-left: 39%;
+    font-size: 37px;
+    padding-top: 10%;
+}
+.register-page h2{
+    color:rgb(59, 150, 216);
+}
+.register-content{
+  padding-top: 20%;
+    padding-left: 25%;
+  
+    
+}
+.register-content input{
+    display: flex;
+    width: 70%;
+    height: 30px;
+    border: 2px solid rgb(63, 158, 226);
+    border-top-right-radius: 13px;
+    
+   
+}
+.register-content .sbmt{
+    display: flex;
+    width: 10%;
+    height:6%;
+    margin-left: 28%;
+    padding-left: 23px ;
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 13px;
+    background-color: rgb(101, 175, 205);
+   
+    
+
+}
+.register-content .sbmt:hover{
+    background: rgb(5, 142, 241);
+    color: black;
+    border:1px solid black;
+    transition: 0.3s;
+}
+ /* contact us section */
+
+ .contact-page{
+    width: 100%;
+    height: 100%;
+    
+    background-color:lightblue;
+}
+.contact-page .heading{
+    display: flex;
+    position: absolute;
+    margin-left: 42%;
+    font-size: 40px;
+    padding-top: 10%;
+}
+.contact-page h2{
+    color:rgb(48, 150, 224);
+}
+.contact-content{
+  padding-top: 20%;
+    padding-left: 35%;
+  
+    
+}
+.contact-content input{
+    display: flex;
+    width: 50%;
+    height: 35px;
+    border: 2px solid rgb(63, 158, 226);
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 13px;
+   
+    
+   
+}
+.contact-content .sbmt{
+    display: flex;
+    width: 10%;
+    height:6%;
+    margin-left: 20%;
+    padding-left: 15px ;
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 13px;
+    background-color: rgb(101, 175, 205);
+   
+    
+
+}
+.contact-content .sbmt:hover{
+    background: rgb(5, 142, 241);
+    color: black;
+    border:1px solid black;
+    transition: 0.3s;
+}
+.contact-content textarea{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border: 1px solid rgb(21, 125, 148);
+}
+
+.burger{
+display: none;
+position: absolute;
+cursor: pointer;
+right:10px;
+top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 4px 2px;
+
+}
+
+
+/* responsive section */
+
+@media( max-width:1316px){
+   
+    .menu{
+        height: auto;
+        flex-direction: column;
+        margin-left: 27px;
+    }
+    .menu a{
+        padding-bottom:15px ;
+        width: fit-content;
+    }
+    .navbar{
+        height: 96%;
+        margin-left: 30%;
+        padding-top: 40px;
+        transition: all 0.4s ease-out;
+    }
+    .icon{
+        width:50%;
+        flex-direction: column;
+    }
+    .search{
+        margin-left: 8%;
+        width: 20px;
+    }
+  
+    .search .srch{
+        width:185px;
+        padding-left: 20px;
+    }
+    .btn{
+        margin-left: 40px;
+        margin-top:13px;
+        padding-left:16px;
+        padding-right: 16px;
+        padding-top: 7px;
+        margin-bottom: 3px;
+    }
+    .logo{
+        font-size: 40;
+        margin-left: 13px;
+    }
+    .burger{
+        display: block;
+    }
+  
+    .h-nav-resp{
+        height: 65px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .register-content .sbmt{
+        width:13%;
+        
+    }
+    .contact-content .sbmt{
+        width:13%;
+    }
+    .content{
+     
+        width:70%;
+        height: 30%;
+        margin-top:15% ;
+        
+    }
+
+}
+
+@media (max-width: 1146px){
+    .content{
+     
+        width:70%;
+        height: 30%;
+        margin-top:17% ;
+        
+    }
+
+   
+}
+@media (max-width: 998px){
+    .content{
+     
+        width:70%;
+        height: 30%;
+        margin-top:19% ;
+        
+    }
+}
+@media (max-width: 850px){
+    .content{
+     
+        width:70%;
+        height: 30%;
+        margin-top:22% ;
+        
+    }
+    .register-content .sbmt{
+        width:17%;
+        
+    }
+   
+    .contact-content .sbmt{
+        width:17%;
+    }
+    .contact-page .heading{
+        margin-left: 38%;
+    }
+}
+@media (max-width: 750px){
+    .content{
+     
+        width:70%;
+        height: 30%;
+        margin-top:25% ;
+        
+    }
+}
+@media (max-width: 650px){
+    .content{
+     
+        width:70%;
+        height: 30%;
+        margin-top:27% ;
+        
+    }
+    .contact-page .heading{
+        margin-left: 35%;
+    }
+    .register-page .heading{
+        margin-left: 35%;
+    }
+
+}
+@media (max-width: 590px){
+    .content{
+     
+        width:80%;
+        height: 30%;
+        margin-top:30% ;
+        
+    }
+    .heading{
+        font-size: 29px;
+
+    }
+    .contact-content .sbmt{
+        width:19%;
+    }
+    .register-content .sbmt{
+        width:19%;
+        
+    }
+   
+}
+
+@media (max-width: 560px){
+    .content{
+     
+        width:80%;
+        height: 30%;
+        margin-top:29% ;
+        
+    }
+    .content p{
+        font-size: 17px;
+    }
+    .heading{
+        font-size: 27px;
+
+    }
+    .register-page .heading{
+        margin-left: 33%;
+    }
+    .contact-content .sbmt{
+        width:20%;
+    }
+    .register-content .sbmt{
+        width:20%;
+        
+    }
+    .register-page .heading{
+        padding: 20px;
+    }
+  
+    .contact-page .heading{
+        padding: 20px;
+        margin-left: 30%;
+    }
+
+}
+@media (max-width: 527px){
+    .content{
+     
+        width:80%;
+        height: 30%;
+        margin-top:30% ;
+        
+    }
+    .content p{
+        font-size: 17px;
+    }
+    .heading{
+        font-size: 25px;
+
+    }
+    .register-content input{
+        width:50%;
+        height: 25px;
+       
+    }
+    .contact-content input{
+        width:50%;
+        height: 25px;
+       
+    }
+    .register-page .heading{
+        margin-left: 22%;
+    }
+    .contact-content .sbmt{
+        width:20%;
+    }
+    .register-content .sbmt{
+        width:20%;
+        margin-left: 18% ;
+        
+    }
+    .contact-content .sbmt{
+        width:20%;
+        margin-left: 18% ;
+        
+    }
+    .register-page .heading{
+        padding: 20px;
+    }
+  
+    .contact-page .heading{
+        padding: 20px;
+        margin-left: 30%;
+    }
+
+
+
+}
+@media (max-width: 486px) {
+    .content{
+     
+        width:80%;
+        height: 30%;
+        margin-top:29% ;
+        
+    }
+    .content p{
+        font-size: 17px;
+    }
+    .heading{
+        font-size: 23px;
+
+    }
+    .register .btns{
+        padding: 8px;
+    }
+    .register-content .sbmt{
+        width:25%;
+        height:25px;
+        margin-left: 18% ;
+        
+    }
+    .contact-content .sbmt{
+        width:25%;
+        height:25px;
+        margin-left: 18% ;
+        
+    }
+
+}
+@media (max-width: 447px) {
+    .content{
+     
+        width:80%;
+        height: 30%;
+        margin-top:33% ;
+        
+    }
+    .content p{
+        font-size: 18px;
+    }
+    .heading{
+        font-size: 24px;
+        margin-left:19px;
+
+
+    }
+    .register .btns{
+        padding: 8px;
+        font-size: 15px;
+    }
+    .main{
+        height: 120%;
+        width: 120%;
+        background: url(istockphoto.jpg);
+        background-size: cover;
+    }
+  
+   
+    .burger{
+        left:106%;
+    }
+    .register-page{
+        width:120%
+    }
+    .contact-page{
+        width: 120%;
+    }
+    .contact-page .heading{
+        margin-left:33%;
+    }
+  
+}
+@media (max-width: 410px) {
+    .content{
+     
+        width:80%;
+        height: 30%;
+        margin-top:37% ;
+        
+    }
+    .heading{
+        width:100%;
+        font-size: 24px;
+        margin-left:15%;
+
+
+    }
+
+}
+@media (max-width: 378px) {
+    .content{
+        height:40%;
+        width:70%;
+       
+        margin-top:40% ;
+        
+    }
+    .burger{
+        left:117%;
+    }
+    .main{
+        width:130%;
+    }
+    .content p{
+       font-size: 20px;
+    }
+    .register-page{
+        width:130%
+    }
+    .contact-page{
+        width: 130%;
+    }
+    .heading{
+        margin-left:15%;
+    }
+    .register-content .sbmt{
+        margin-left: 15%;
+    }
+    .contact-content .sbmt{
+        margin-left: 12%;
+    }
+}
+@media (max-width: 354px) {
+    .content{
+     
+       width:130%;
+        margin-top:42% ;
+        
+    }
+    .logo{
+        padding-left: 10%;
+    }
+    .register-page{
+        width:130%
+    }
+    .contact-page{
+        width: 130%;
+    }
+    .content-paragraph{
+        width:50%;
+    }
+    .burger{
+        left:110%;
+    }
+}
+
+
+
+
+
+
+
+
